@@ -3,6 +3,10 @@ languageCode: "en-us"
 title: "Hugo Profile"
 theme: hugo-profile
 
+caches:
+  images:
+    dir: :cacheDir/images
+
 # Multilingual configuration
 defaultContentLanguage: "en"
 defaultContentLanguageInSubdir: false
