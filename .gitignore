@@ -1,0 +1,7 @@
+public/
+resources/_gen/
+.hugo_build.lock
+_reference/
+cv/out/
+cv/private/
+.DS_Store
