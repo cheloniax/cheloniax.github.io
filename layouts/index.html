@@ -2,6 +2,7 @@
 <meta name="description" content={{ .Site.Params.description }}>
 <link rel="stylesheet" href="{{ (printf "%scss/index.css" (.Site.Params.staticPath | default "")) | relURL }}" media="all">
 <link rel="stylesheet" href="{{ (printf "%scss/projects.css" (.Site.Params.staticPath | default "")) | relURL }}" media="all">
+<link rel="stylesheet" href="{{ "css/custom.css" | relURL }}?v={{ now.Unix }}" media="all">
 
 <!-- fontawesome 6.7.2 -->
 <script defer src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/js/all.min.js" crossorigin="anonymous"></script>

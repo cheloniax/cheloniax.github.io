@@ -39,7 +39,7 @@ markup:
 params:
   title: "Sebastian Hoefer"
   description: "Wildlife biologist working in ecoacoustics, conservation and biodiversity monitoring."
-  favicon: "/fav.png"
+  favicon: "/images/favicon.png"
 
   useBootstrapCDN: false
   mathjax: false
@@ -50,7 +50,7 @@ params:
     defaultTheme: "dark"
 
   font:
-    fontSize: 1rem
+    fontSize: 1.125rem
     fontWeight: 400
     lineHeight: 1.5
     textAlign: left
@@ -119,14 +119,15 @@ params:
     title: "About Me"
     image: "/images/me.jpg"
     content: |-
-      I'm a wildlife biologist at James Cook University in Townsville, working at the
-      intersection of field ecology and computational data science. My work focuses on
-      passive acoustic monitoring and building high-throughput pipelines that turn terabytes
-      of raw soundscape recordings into usable ecological data.
-
-      I develop and evaluate species call recognisers. Alongside that, I love going hiking and spending time in nature.
-      Eventhough herpetology is my main passion I've begun to appreciate and cherish all kinds of wildlife and flora and 
-      start to consider myself a naturalist.
+      
+      
+      
+      I’m a wildlife biologist at James Cook University, turning mountains of environmental sound recordings into insights
+      about the natural world to help with biodiversity monitoring and conservation.
+      
+      I build and test tools that recognise animal calls, and when I’m not working with soundscapes, you’ll probably find me
+      hiking, looking for reptiles and amphibians, or appreciating whatever wild thing crosses my path.
+      Herpetology is my first love, but I’m growing into an all-round naturalist.
       
     skills:
       enable: false
@@ -168,16 +169,16 @@ params:
         jobs:
           - name: "Postdoctoral Research Fellow"
             date: "2025 - present"
-            info:
-              content: Ecoacoustics and bioacoustic data engineering
             content: |
-              Leading bioacoustic data pipeline development for large-scale biodiversity
-              monitoring across northern Australia.
+              - Leading multiple large-scale ecoacoustic monitoring projects across Australia focusing on reliable detection
+              of threatened and introduced species, revealing dial and seasonal activity patterns, and assessing the impact
+              of solar farms and urbanisation on vertebrates.
+              - Developing and evaluating effective custom species call recognisers for mammals, frogs, reptiles, and birds.
+              - Designing and delivering comprehensive workshops to build capacity in passive acoustic monitoring with indigenous rangers,
+              government and private sector stakeholders.
+              - Collaborating with Indigenous ranger groups to develop and implement large-scale, long-term acoustic monitoring projects
+              that support looking after Country.
 
-              - Built and maintain high-throughput processing pipelines in R and Bash on HPC infrastructure.
-              - Developed semi-automated species recognisers with class-specific detection thresholds.
-              - Coordinate validation datasets and external annotator workflows.
-              - Oversee publication workflows for ecological manuscripts.
 
   education:
     enable: true
@@ -194,41 +195,59 @@ params:
           Conducted research on the value of passive acoustic monitoring to enhance terrestrial vertebrate biodiversity assessments.
           Focused on optimising field survey design and data analysis to enable cost-effective large-scale and long-term 
           monitoring of biodiversity
-      - title: "Honours (Behavioural Biology)"
-        school:
-          name: "Macquarie University"
-          url: "https://www.mq.edu.au/"
-        date: "2018"
-        content: |-
-          *To Go, or Not to Go, That Is the Question: Motor self-regulation in the Egernia group*
-
-          Studied the relationship between social behaviour and cognitive abilities of five Australian skinks
-      - title: "Bachelor of Science (Biology)"
-        school:
-          name: "Freie Universität Berlin"
-          url: "https://www.fu-berlin.de/en/index.html"
-        date: "2015 - 2018"
-        content: |-
-          Graduated with High Distinction (top 5% of class) and received two highly competitive scholarships.
-          Established a partnership between the university’s scholarship program and the Leibniz Institute for Zoo and Wildlife Research
-          (IZW) and managed a film project focused on science communication
+      #- title: "Honours (Behavioural Biology)"
+      #  school:
+      #    name: "Macquarie University"
+      #    url: "https://www.mq.edu.au/"
+      #  date: "2018"
+      #  content: |-
+      #    *To Go, or Not to Go, That Is the Question: Motor self-regulation in the Egernia group*
+#
+      #    Studied the relationship between social behaviour and cognitive abilities of five Australian skinks
+      #- title: "Bachelor of Science (Biology)"
+      #  school:
+      #    name: "Freie Universität Berlin"
+      #    url: "https://www.fu-berlin.de/en/index.html"
+      #  date: "2015 - 2018"
+      #  content: |-
+      #    Graduated with High Distinction (top 5% of class) and received two highly competitive scholarships.
+      #    Established a partnership between the university’s scholarship program and the Leibniz Institute for Zoo and Wildlife Research
+      #    (IZW) and managed a film project focused on science communication
 
   projects:
     enable: true
     items:
-      - title: Species recogniser pipeline
+      #- title: Species recogniser pipeline
+      #  content: >-
+      #    Semi-automated detection and classification of target species in
+      #    continuous soundscape recordings, with class-specific threshold
+      #    optimisation on the logit scale.
+      #  image: /images/projects/spectrogram.jpg
+      #  badges:
+      #    - "R"
+      #    - "Arrow"
+      #    - "HPC"
+      #  links:
+      #    - icon: fab fa-github
+      #      url: https://github.com/cheloniax
+      - title: Listening to Country
         content: >-
-          Semi-automated detection and classification of target species in
-          continuous soundscape recordings, with class-specific threshold
-          optimisation on the logit scale.
-        image: /images/projects/spectrogram.jpg
-        badges:
-          - "R"
-          - "Arrow"
-          - "HPC"
+          Partnership with First Nations ranger groups, building capacity for acoustic monitoring to enable groups to monitor
+          biodiversity, threatened species, and introduced species to support looking after Country
+        image: /images/country.jpg
+      - title: Biodiversity on Solar Farms
+        content: >-
+          Assessment of vertebrate and invertebrate biodiversity on a utility-scale solar farm, exploring how renewable energy
+          facilities can support rich and diverse communities of wildlife
+        image: /images/solar.jpg
         links:
-          - icon: fab fa-github
-            url: https://github.com/cheloniax
+          - icon: fab fa-safari
+            url: https://decarb-hub.org/publication/an-outstanding-opportunity-using-solar-farms-for-biodiversity-preservation
+      - title: Building Capacity for PAM
+        content: >-
+          Development and delivery of workshops, training, and webinars for establishing an ecoacoustic monitoring program from
+          deploying audio recorders and analysing acoustic data to inferring ecological meaning
+        image: /images/spectro.jpg
 
   achievements:
     enable: false
@@ -243,7 +262,7 @@ params:
     enable: false
     content: My inbox is always open — whether it's a research question, a collaboration, or just to say hello.
     btnName: Email me
-    btnLink: mailto:you@example.com
+    btnLink: mailto:seb.hoefer@pm.me
 
   footer:
     recentPosts:
