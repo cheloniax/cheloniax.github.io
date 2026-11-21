@@ -1,0 +1,10 @@
+/* Larger, centred hero social icons (works for both SVG and font icons) */
+#hero a.btn.social-icon {
+  font-size: 1.4rem;
+  padding: 0;
+  width: 3.1rem;
+  height: 3.1rem;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}

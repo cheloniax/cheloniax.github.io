@@ -1,0 +1,9 @@
+{
+  "recommendations": [
+    "budparr.language-hugo-vscode",
+    "redhat.vscode-yaml",
+    "myriad-dreamin.tinymist",
+    "yzhang.markdown-all-in-one",
+    "eamodio.gitlens"
+  ]
+}
