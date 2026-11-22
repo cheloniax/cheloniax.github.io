@@ -1,3 +1,14 @@
+/* Use title font ("Alata") everywhere */
+body,
+.secondary-font,
+#secondary-font,
+.primary-font,
+#primary-font,
+.default-font,
+#default-font {
+  font-family: "Alata", sans-serif !important;
+}
+
 /* Larger, centred hero social icons (works for both SVG and font icons) */
 #hero a.btn.social-icon {
   font-size: 1.4rem;
